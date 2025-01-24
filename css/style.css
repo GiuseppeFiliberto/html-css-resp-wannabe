@@ -127,6 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+  /* small desktop devices */
 
   @media screen and (max-width:1140px) {
 
@@ -136,12 +137,16 @@ img {
     
   }
 
+  /* tablet devices */
+
   @media screen and (max-width:768px) {
 
     .container{
         width: 100%;
     }
   }
+  
+/* smartphones/mobile devices */
 
   @media screen and (max-width:480px) {
 
